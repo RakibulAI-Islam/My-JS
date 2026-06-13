@@ -6,7 +6,7 @@ const fruits = new Map([
 ]);
 
 let text = "";
-for (const x of fruits.keys()) {
+for (const x of fruits.values()) {
   text += x + "\n";
 }
 
