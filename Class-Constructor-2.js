@@ -4,12 +4,12 @@ class Car
         this.year = year;
     }
 
-    run()
-    { console.log(`${this.name} in invented ${this.year}.`)}
+    run(speed)
+    { console.log(`${this.name} in invented ${this.year}. Drive ${speed}.`)}
 }
 
 const bmw = new Car ('BMW', 1999);
 const audi = new Car ('Audi', 2000);
 
-bmw.run();
-audi.run();
+bmw.run(`99 km per hour.`);
+audi.run(`100 km per hour.`);
