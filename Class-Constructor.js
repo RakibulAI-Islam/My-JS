@@ -3,8 +3,11 @@ class Car
     {   this.name = name;
         this.year = year;
     }
+
+    run()
+    { console.log(`${this.name} in invented ${this.year}.`)}
 }
 
 const bmw= new Car ('BMW', 1999);
 
-console.log(bmw);
+bmw.run();
